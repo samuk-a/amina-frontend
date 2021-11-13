@@ -16,6 +16,7 @@
 .card {
 	width: 400px;
 	display: inline-block;
+	transform: scale(0.9);
 	& .card-image, & img {
 		width: 100%;
 	}
