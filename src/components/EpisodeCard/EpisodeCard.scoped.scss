@@ -14,9 +14,10 @@
 	}
 }
 .card {
-	height: 400px;
+	width: 400px;
+	display: inline-block;
 	& .card-image, & img {
-		height: 100%;
+		width: 100%;
 	}
 	& .overlay {
 		transition: opacity ease 0.5s;

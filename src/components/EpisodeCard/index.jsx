@@ -13,22 +13,20 @@ class EpisodeCard extends Component {
 
 	render() {
 		return (
-			<div className="col">
-				<div className="card">
-					<div className="card-image">
-						<span className="card-title top">
-							{this.anime.title} - T{this.season}E{this.episode}
-						</span>
-						<img src={this.cover} />
-						<span className="card-title bottom">
-							{this.title}
-						</span>
-					</div>
-					<div className="overlay">
-						<i class="large material-icons-outlined">
-							play_circle
-						</i>
-					</div>
+			<div className="card">
+				<div className="card-image">
+					<span className="card-title top">
+						{this.anime.title} - T{this.season}E{this.episode}
+					</span>
+					<img src={this.cover} alt={this.title} />
+					<span className="card-title bottom">
+						{this.title}
+					</span>
+				</div>
+				<div className="overlay">
+					<i className="large material-icons-outlined">
+						play_circle
+					</i>
 				</div>
 			</div>
 		)

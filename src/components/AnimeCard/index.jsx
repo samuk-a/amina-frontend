@@ -7,14 +7,13 @@ class AnimeCard extends Component {
 		this.cover = props.anime.cover
 		this.title = props.anime.title
 	}
+
 	render() {
 		return (
-			<div className="col">
-				<div className="card">
-					<div className="card-image">
-						<img src={this.cover} />
-						<span className="card-title">{this.title}</span>
-					</div>
+			<div className="card">
+				<div className="card-image">
+					<img src={this.cover} />
+					<span className="card-title">{this.title}</span>
 				</div>
 			</div>
 		)
